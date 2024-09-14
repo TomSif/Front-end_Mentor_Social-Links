@@ -113,3 +113,25 @@ h3 {
 footer {
   display: none;
 }
+
+@media (max-width: 600px) {
+  .tile {
+    width: 17em;
+  }
+
+  header {
+    margin-top: 1em;
+  }
+
+  .button {
+    width: 20em;
+  }
+
+  .button:last-child {
+    margin-bottom: 1.5em;
+  }
+}
+
+.button:focus {
+  outline: 2px solid var(--Green);
+}
